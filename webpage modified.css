@@ -1,0 +1,52 @@
+#portfolio{
+	padding: 40px;
+	margin: 0 auto;
+}
+.gallery-title{
+	font-family: Garamond;
+	font-size: 80px;
+	font-style: italic;
+	font-weight: bold;
+	color: blanchedalmond;
+	text-align: center;
+	font-weight: 700;
+	padding: 40px 20px 60px;
+}
+.filter-button{
+	font-size: 18px;
+	font-family: lucida console;
+	font-weight: bold;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+	color: springgreen;
+	margin-bottom: 30px;
+}
+.filter-button:hover{
+	font-size: 18px;
+	border: 1px solid magenta;
+	border-radius: 5px;
+	text-align: centre;
+	color: #fff;
+	background-color: #db584e;
+
+}
+.btn-default:active .filter-button:active{
+	background-color: #db584e;
+	color: #fff;
+}
+.gallery_product{
+
+	margin: 10px auto;
+	padding: 20px auto;
+	box-shadow: 0px 0px 5px rgba(1, 1, 0, 1.0);
+}
+
+.gallery_product:hover{
+	transform: scale(2);
+	z-index: 4;
+}
+body{
+	background-image: linear-gradient(to right top, #051937, #4a275a, #962a61, #d2414a, #eb7912);
+}
+
