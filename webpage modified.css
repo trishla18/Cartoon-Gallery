@@ -1,4 +1,4 @@
-#portfolio{
+#cartoon{
 	padding: 40px;
 	margin: 0 auto;
 }
@@ -43,7 +43,7 @@
 }
 
 .gallery_product:hover{
-	transform: scale(2);
+	transform: scale(1.2);
 	z-index: 4;
 }
 body{
